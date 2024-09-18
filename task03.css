@@ -1,0 +1,39 @@
+*{margin:0; padding: 0;text-decoration: none;}
+body{
+    position: relative;
+    top:20vh;
+    background-image: linear-gradient(to right, rgb(103, 149, 194), rgb(63, 142, 221));
+}
+main{
+    margin: auto;
+
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+section{
+    padding: 1vw;
+}
+button{
+    background-color: rgb(235, 212, 183);
+    padding: 1vw 2vw;
+    border: 2px solid blueviolet;
+    border-radius: 1vw;
+    cursor:pointer;
+}
+button:hover{
+    background-color: blueviolet;
+    border:2px solid antiquewhite ;
+    box-shadow: 1px 1px 2px;
+    color: antiquewhite ;
+}
+button:active{
+    background-color: rgb(228, 156, 156);
+    color: blueviolet;    
+}
+
+p{
+    color: white;
+    font-size:1.2rem;
+    font-weight: 900;
+}
